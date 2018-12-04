@@ -1,0 +1,7 @@
+Jan 13 05:49:47: ACCEPT service dns from 74.125.189.23 to firewall(pub-nic-dns), prefix: "none" (in: eth0 74.125.189.23(00:80:38:fa:8a:7e):51027 -> 140.105.63.158(00:00:76:fe:75:e2):53 UDP len:80 ttl:49)
+Jan 13 16:46:49: ACCEPT service http from 209.58.83.178 to firewall(pub-nic), prefix: "none" (in: eth0 209.58.83.178(f0:dc:e2:a1:1a:39):58395 -> 140.105.63.164(00:e0:33:f4:04:0d):80 TCP flags: ****S* len:60 ttl:47)
+Jan 13 17:12:02: DROP service 68->67(udp) from 213.92.85.203 to 213.92.45.212, prefix: "spoof iana-0/8" (in: eth0 69.43.205.171(00:01:6c:88:d7:94):68 -> 172.45.32.244(00:0a:e5:f9:0c:2b):67 UDP len:328 ttl:64)
+Jan 13 21:44:16: DROP service 68->67(udp) from 213.92.188.179 to 217.70.79.103, prefix: "spoof iana-0/8" (in: eth0 172.45.228.57(00:1a:31:e0:21:70):68 -> 213.92.144.243(78:46:c4:c0:99:98):67 UDP len:328 ttl:64)
+Jan 13 12:29:19: DROP service http from 172.30.42.109 to 95.172.69.18, prefix: "SYNLIMIT reach." (in: eth1 out: eth0 172.30.42.109:58589 -> 95.172.69.18:80 TCP flags: ****S* len:60 ttl:63)
+Jan 13 14:46:11: DROP service 68->67(udp) from 172.45.69.109 to 216.34.213.175, prefix: "spoof iana-0/8" (in: eth0 217.70.18.166(00:1d:5a:5c:de:99):68 -> 213.92.180.100(00:20:1b:54:ba:e9):67 UDP len:576 ttl:64)
+Jan 13 14:52:18: DROP service 68->67(udp) from 69.43.61.93 to 172.45.63.242, prefix: "spoof iana-0/8" (in: eth0 217.70.253.9(00:0d:e7:bc:1b:af):68 -> 69.43.45.151(9c:04:73:c6:71:40):67 UDP len:328 ttl:64)
