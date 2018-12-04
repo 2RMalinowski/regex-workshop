@@ -8,3 +8,5 @@ Open the part you want to practice and change the regex part into succesful rege
 Goal of each part is described in docstring at the beginning of the file.
 
 Have fun!
+
+P.S.: If you liked regex I created a bonus task. Simple but i think its cool.
