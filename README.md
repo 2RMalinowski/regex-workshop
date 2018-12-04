@@ -1,7 +1,7 @@
 REGEX WORKSHOP
 
-Useful links:
-https://www.rexegg.com/regex-quickstart.html#chars - regular expression cheat sheet
+Useful links: <br />
+https://www.rexegg.com/regex-quickstart.html#chars - regular expression cheat sheet <br />
 https://regexr.com/ - regular expression interactive interpreter written in JS
 
 
