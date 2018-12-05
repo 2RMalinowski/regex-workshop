@@ -13,7 +13,7 @@ from part3validation import validate_output
 with open("resource/log.txt") as f:
     text = f.read()
 
-regexer = re.compile(r".*")  # here in the parenthesis is the famous regex part.
+regexer = re.compile(r"\d{1,3}\.\d{1,3}\.\d{1,3}.\d{1,3}")  # here in the parenthesis is the famous regex part.
 res = [match.group() for match in regexer.finditer(text)]
 if res:
     for match in res:
