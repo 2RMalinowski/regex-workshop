@@ -14,8 +14,9 @@ import re
 
 text = "24/09/2018 to byla dobra data nie to co 1/8/1520"
 
-regexer = re.compile(r".*")  # here in the parenthesis is the famous regex part.
-res = regexer.search(text)
-print(res.group())
-for group in res.groups():
-    print(group)
+regexer = re.compile(r"(\d{1,2})\/(\d{1,2})\/(\d{4})")  # here in the parenthesis is the famous regex part.
+res = regexer.finditer(text)
+for match in res:
+    print(match.group())
+    for group in match.groups():
+        print(group)
